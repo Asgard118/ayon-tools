@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ayon-tools"
+version = "0.0.1"
+description = "Ayon deploy helpers"
+authors = ["paulwinex <paulwinex@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ayon-python-api = "^1.0.1"
+requests = "^2.31.0"
+gitpython = "^3.1.42"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+// путь к репозиторию аддона
+{
+  "name": "agio_addon_name",
+  "url": "https://github.com/agio/agio_addon_name.git"
+}

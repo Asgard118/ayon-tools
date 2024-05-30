@@ -1,0 +1,25 @@
+{
+  "maya": {
+    "versions": {
+      "2021": {"paths": {},"envs": {}},
+      "2022": {}
+    },
+    "paths": {
+      "win": ["C:/Program Files/Autodesk/Maya{version}/bin/maya.exe"],
+      "lin": ["/usr/autodesk/maya{version}/bin/maya"],
+      "mac": ["/Applications/Autodesk/maya{version}/Maya.app/Contents/bin/maya"]
+    },
+    "envs": {
+      "MAYA_VERSION": "{version}"
+    }
+  },
+
+  "houdini": {
+    "versions": {
+      "19.5.634": {"paths": {},"envs": {}},
+      "20.0.456": {}
+    },
+    "paths": {},
+    "envs": {}
+  }
+}

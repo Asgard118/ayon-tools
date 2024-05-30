@@ -1,0 +1,8 @@
+{
+    "Not Ready": {"short": "NRD", "state": "not-started"},
+    "In Progress": {"short": "PRG", "state": "in-progress"},
+    "Pending review": {"short": "RVW", "state": "in-progress"},
+    "Approved": {"short": "APR", "state": "done"},
+    "On Hold": {"short": "HLD", "state": "blocked"},
+    "Omited": {"short": "OMT", "state": "blocked"}
+}

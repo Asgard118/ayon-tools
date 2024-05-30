@@ -1,0 +1,21 @@
+{
+  "roots": {
+    "work": {"win": "c:/projects", "lin": "/mnt/share/projects", "mac": "/Volumes/projects"}
+  },
+  "templates": {
+    "publish": {
+      "default": "{root[work]}/{project[name]}/{hierarchy}/{folder[name]}/publish/{product[type]}/{product[name]}/{@version}/{project[code]}_{folder[name]}_{product[name]}_{@version}<_{output}><.{@frame}><_{udim}>.{ext}",
+      "render": "{root[work]}/{project[name]}/{hierarchy}/{folder[name]}/publish/{product[type]}/{product[name]}/{@version}/{project[code]}_{folder[name]}_{product[name]}_{@version}<_{output}><.{@frame}>.{ext}"
+    },
+    "hero": {},
+    "work": {}
+  },
+  "product_name_profiles": {
+    "workfile": {
+      "template": "{product[type]}{Task[name]}",
+      "hosts": []
+    }
+
+  }
+
+}

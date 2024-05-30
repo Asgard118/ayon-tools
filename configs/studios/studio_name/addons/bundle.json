@@ -1,0 +1,10 @@
+{
+    "production": {
+      "addon1": "1.0.1",
+      "addon2": "0.0.2"
+    },
+    "staging": {
+      "addon1": "1.0.2",
+      "addon2": "0.0.2"
+    }
+}

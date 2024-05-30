@@ -1,0 +1,8 @@
+{
+    "Art": "art",
+    "Animation": "anim",
+    "Lighting": "light",
+    "Modeling": "model",
+    "Rigging": "rig",
+    "Shading": "shading"
+}

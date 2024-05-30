@@ -1,0 +1,13 @@
+[
+  {
+    "product_type": "",
+    "product_name_profile": {},
+    "identifier": "",
+    "label": "agio Export Demo",
+    "icon": "fa.file",
+    "variants": ["main"],
+    "allow_sequences": false,
+    "allow_multiple_items": false,
+    "extensions": ["jpg", "png", "exr"]
+  }
+]

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Перейти в рабочую директорию
+cd "$(dirname "$0")/.."
+
+# Установить PYTHONPATH на рабочую директорию
+export PYTHONPATH="$(pwd)"
+
+# Запустить модуль my_tool через Poetry
+poetry run python -m ayon_tools.deploy "$@"

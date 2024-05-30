@@ -1,0 +1,11 @@
+{
+  "name": "Demo Project 1",
+  "code": "demo_project_1",
+  "source_preset_name": "base",
+  "attributes": {
+    "fps": 25.0,
+    "resolution": [1920, 1080],
+    "pixel_aspect": 1.0,
+    "other_values": "..."
+  }
+}

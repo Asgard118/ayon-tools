@@ -1,0 +1,28 @@
+{
+  "name": "Studio Name",
+  "code": "studio_name",
+  "api_key": "$STUDIONAME_API_KEY",
+  "secrets": {
+   "service_user_name": "user@gmail.com",
+    "service_api_key": "${SERVICE_API_KEY}"
+  },
+  "default_users": [
+    {
+      "admins": ["admin@gmail.com"],
+      "services": ["service"]
+    }
+  ],
+  "custom_attributes": [
+    {
+    "name": "FtrackId",
+    "type": "int"
+    }
+  ],
+  "presets": [
+    {
+      "name": "base",
+      "anatomy": "here"
+    }
+  ]
+
+}
